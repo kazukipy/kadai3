@@ -1,0 +1,166 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.concept{
+  display: flex;
+  justify-content: space-between;
+}
+.concept_txt{
+  width: 60%;
+}
+.concept_image{
+  width: 35%;
+}
+.menu_haikei{
+  background: url("../images/sample_menu_bg.jpg") no-repeat bottom;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.cafee_menu{
+  display: flex;
+  justify-content: space-around;
+}
+.caffee_menu_1 {
+  width: 55%;
+  object-fit: cover;
+}
+.menu_setumei{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 49%;
+}
+.menu_setumei2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px; 
+}
+.menu_nedan{
+  text-align: right;
+}
+.menu_drink{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px; 
+}
+.menu_drink2{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 49%;
+  padding: 30px;
+}
+.menu_drink3{
+  width: 80%;
+  padding: 10px;
+}
+.tenpo{
+  width: 80px;
+}
+.tenpo1{
+  display: flex;
+}
+.footer{
+  height: 75px;
+  background:#251e19
+}
+.footer1{
+  display: flex;
+  justify-content: center;
+  color: white;
+} 
+.footer_logo{
+  width: 80px;
+  padding: 10px 20px 0px 0px;
+} 
+.footeer2{
+  color: white; 
+  padding: 15px 20px 0px 0px;   /*tuika*
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
